@@ -1,2 +1,3 @@
-wasm-pack build --no-typescript --target no-modules --release
+python3 script.py
+cd build
 python3 -m http.server
